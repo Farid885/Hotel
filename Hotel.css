@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  background-image: url(https://duruthemes.com/demo/html/cappa/demo1/img/slider/1.jpg);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoes img {
+  width: 150px;
+  /* margin-left:130px; */
+  /* display: flex; */
+}
+
+.navbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* padding: 30px 100px; */
+  align-items: flex-end;
+  padding: 0 200px;
+  padding-bottom: 10px;
+}
+.navbar li {
+  margin: 10px;
+  list-style-type: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 60px;
+  /* align-items: flex-end; */
+  /* align-content: flex-start; */
+}
+.navbar .lisate:hover {
+  background: transparent;
+  color: #aa8453;
+  transition: 0.4s;
+}
+.enjoye {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+.enjoye .moments {
+  text-transform: uppercase;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  color: white;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+.enjoye .cappa {
+  font-size: 55px;
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  letter-spacing: 15px;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.enjoye .suitse {
+  padding: 13px 26px;
+  background: transparent;
+  border: 1px solid white;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 5px;
+  position: relative;
+}
+.enjoye .suitse:hover {
+  background-color: white;
+  transition: 1s;
+}
+.staras {
+  display: flex;
+  flex-direction: row;
+  color: yellow;
+}
+.staras span {
+  margin: 5px;
+}
+
+.reze {
+  position: absolute;
+  left: 0;
+  transform: rotate(270deg);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 100px;
+}
+.reze .rest {
+  font-size: 15px;
+  letter-spacing: 4px;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.reze .nmber {
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #aa8453;
+}
+.reze i {
+  position: absolute;
+  left: -10px;
+  transform: rotate(50deg);
+  font-size: 20px;
+  border: 1px solid brown;
+  border-radius: 50%;
+  border-width: 0px;
+}
+.inisele {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.inisele .putins {
+  padding: 20px 40px 20px 20px;
+  border: none;
+}
+.inisele option {
+  font-size: 18px;
+  color: black;
+}
+
+.inisele option:hover {
+  color: #aa8453;
+  background: red;
+}
+.ayada:active {
+  color: #aa8453;
+}
+.rezbutt button {
+  background-color: #aa8453;
+  cursor: pointer;
+  color: white;
+}
+.rezbutt button:hover {
+  background: rgb(36, 25, 25);
+  transition: 0.5s;
+}
+
+.Luxurye {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 50px;
+  padding: 0;
+}
+.donec {
+  width: 100%;
+  margin-top: 150px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.welcome {
+  width: 50%;
+  padding-left: 150px;
+}
+.glasse img {
+  width: 230px;
+  height: 350px;
+  object-fit: cover;
+}
+.thehca {
+  color: #d98619;
+}
+.dems {
+  margin-top: 30px;
+  display: flex;
+  text-align: start;
+  width: 100%;
+  flex-direction: column;
+}
+.oteho {
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-family: "Barlow", sans-serif;
+  opacity: 0.9;
+}
+.deluxe {
+  font-size: 35px;
+  font-family: "Gilda", sans-serif;
+  padding-bottom: 30px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+.five-star {
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.element{
+  margin: 20px 0;
+}
+.kiqqa {
+  display: flex;
+  flex-direction: column;
+}
+.roums {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+}
+.ruams {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 3px;
+}
+.duruth {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.newmg1{
+ margin-top: 150px;
+}
+
+.glasse{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.mgimg1{
+  margin: 80px 40px 0 30px;
+}
+.suitesar{
+  width: 100%;
+  height: 100vh;
+  background: #f8f5f0;
+  box-sizing: border-box;
+}
+.subsi{
+  font-family: "Barlow",sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.allrom{
+  width: 100%;
+  height: 100%;
+
+
+}
+.subrite{
+  font-size: 45px;
+  font-family: "Gilda Display", sans-serif;
+  font-weight: 300;
+
+}
+.suro img{
+  width: 300px;
+}
+.hepal{
+  width: 100%;
+
+}
+.juni{
+position: absolute;
+transform: translateY(-100px);
+left: 0;
+margin-left: 20px;
+
+}
+  .junsine{
+    display: none;
+    transform: translateY(50px);
+
+
+  }
+  .suro:hover .junsine{
+    display: block;
+  transition: 3s;
+  transition: 0.3s ease-in-out transform;
+transform: translateY(-10px);
+transform: scale();
+  
+  }
+  .junsine span:hover i{
+    transition: 2s ease-in-out transform;
+  }
+  .suro:hover i{
+    transition: 0.2s ease-in-out color;
+  }
+  
