@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 /* new change */
+/* new change 2 */
 .homepage {
   background-image: url(https://duruthemes.com/demo/html/cappa/demo1/img/slider/1.jpg);
   width: 100%;
@@ -225,7 +226,7 @@
   font-size: 15px;
   line-height: 1.5;
 }
-.element{
+.element {
   margin: 20px 0;
 }
 .kiqqa {
@@ -246,74 +247,65 @@
   flex-direction: column;
   padding-left: 20px;
 }
-.newmg1{
- margin-top: 150px;
+.newmg1 {
+  margin-top: 150px;
 }
 
-.glasse{
+.glasse {
   width: 50%;
   display: flex;
   flex-direction: row;
   margin: 10px;
 }
-.mgimg1{
+.mgimg1 {
   margin: 80px 40px 0 30px;
 }
-.suitesar{
+.suitesar {
   width: 100%;
   height: 100vh;
   background: #f8f5f0;
   box-sizing: border-box;
 }
-.subsi{
-  font-family: "Barlow",sans-serif;
+.subsi {
+  font-family: "Barlow", sans-serif;
   letter-spacing: 2px;
   font-size: 15px;
 }
-.allrom{
+.allrom {
   width: 100%;
   height: 100%;
-
-
 }
-.subrite{
+.subrite {
   font-size: 45px;
   font-family: "Gilda Display", sans-serif;
   font-weight: 300;
-
 }
-.suro img{
+.suro img {
   width: 300px;
 }
-.hepal{
+.hepal {
   width: 100%;
-
 }
-.juni{
-position: absolute;
-transform: translateY(-100px);
-left: 0;
-margin-left: 20px;
-
+.juni {
+  position: absolute;
+  transform: translateY(-100px);
+  left: 0;
+  margin-left: 20px;
 }
-  .junsine{
-    display: none;
-    transform: translateY(50px);
-
-
-  }
-  .suro:hover .junsine{
-    display: block;
+.junsine {
+  display: none;
+  transform: translateY(50px);
+}
+.suro:hover .junsine {
+  display: block;
   transition: 3s;
   transition: 0.3s ease-in-out transform;
-transform: translateY(-10px);
-transform: scale();
-  
-  }
-  .junsine span:hover i{
-    transition: 2s ease-in-out transform;
-  }
-  .suro:hover i{
-    transition: 0.2s ease-in-out color;
-  }
-  
+  transform: translateY(-10px);
+  transform: scale();
+}
+.junsine span:hover i {
+  transition: 2s ease-in-out transform;
+}
+.suro:hover i {
+  transition: 0.2s ease-in-out color;
+}
